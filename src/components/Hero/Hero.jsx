@@ -29,6 +29,9 @@ const Hero = () => {
           variants={fadeIn("up", "tween", 0.3, 1)}
           className={css.person}
         >
+          <img src="./IMG_20230719_165126-PhotoRoom.png" alt="" />
+        </motion.div>
+
           <img src="./splash.png" alt="" />
         </motion.div>
 
