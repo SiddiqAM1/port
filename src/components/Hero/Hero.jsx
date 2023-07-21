@@ -30,7 +30,7 @@ const Hero = () => {
           className={css.person}
         >
           <img src="./IMG_20230719_165126-PhotoRoom.png" alt="" />
-        </motion.div>
+        
 
           <img src="./splash.png" alt="" />
         </motion.div>
