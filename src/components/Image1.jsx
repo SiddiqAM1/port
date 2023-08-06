@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { fadeIn, slideIn, staggerContainer } from "../../utils/motion";
 
 const YourComponent = () => {
   return (
