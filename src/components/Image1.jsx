@@ -4,7 +4,7 @@ import './YourComponent.css'; // Import your CSS file
 function YourComponent() {
   return (
     <div className="hero-image">
-      <img src={src='./SiddiqImage.jpg'} alt="Your Image" />
+      <img src='./SiddiqImage.jpg' alt="Your Image" />
     </div>
   );
 }
