@@ -26,15 +26,7 @@ const Hero = () => {
           </motion.span>
         </div>
 
-        <motion.div
-          variants={fadeIn("up", "tween", 0.3, 1)}
-          className={css.person}
-        >
-          <img src="./IMG_20230719_165126-PhotoRoom.png" alt="" />
-        
-
-          <img src="./splash.png" alt="" />
-        </motion.div>
+        <YourComponent/>
 
         <a className={css.email} href="mailto:ahmedmuhammadsiddiq4@gmail.com">
           ahmedmuhammadsiddiq4@gmail.com
