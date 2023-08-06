@@ -1,17 +1,15 @@
-import React from 'react';
-import './YourComponent.css'; // Import your CSS file
-import Proc from './SiddiqImage.jpg'
+import React from "react";
+import { motion } from "framer-motion";
 
-function YourComponent() {
+const YourComponent = () => {
   return (
-    <div className="hero-image">
-      <img src={Proc} alt="Your Image" />
-    </div>
+    <motion.div
+      variants={fadeIn("up", "tween", 0.6, 1)} // You can adjust the variants accordingly
+      className={css.imageContainer} // Add a CSS class for styling the image container
+    >
+      <img src="./SiddiqImage.jpg" alt="Your Alt Text" /> {/* Replace with your image path */}
+    </motion.div>
   );
-}
+};
 
 export default YourComponent;
-
-
-
-
