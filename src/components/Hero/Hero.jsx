@@ -2,6 +2,7 @@ import React from "react";
 import { fadeIn, slideIn, staggerContainer } from "../../utils/motion";
 import css from "./Hero.module.scss";
 import { motion } from "framer-motion";
+import YourComponent from '../Image1.jsx'
 const Hero = () => {
   return (
     <section className={`paddings ${css.wrapper}`}>
